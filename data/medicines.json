@@ -1,0 +1,42 @@
+{
+  "aspirin": {
+    "generic_name": "Aspirin",
+    "aliases": ["aspirin", "acetylsalicylic acid"],
+    "max_demo_daily_mg": 4000,
+    "allergy_group": "salicylates",
+    "diseases_to_flag": ["active bleeding", "peptic ulcer disease"],
+    "interacts_with": ["warfarin", "ibuprofen"]
+  },
+  "warfarin": {
+    "generic_name": "Warfarin",
+    "aliases": ["warfarin"],
+    "max_demo_daily_mg": 10,
+    "allergy_group": "anticoagulants",
+    "diseases_to_flag": ["active bleeding"],
+    "interacts_with": ["aspirin", "ibuprofen"]
+  },
+  "ibuprofen": {
+    "generic_name": "Ibuprofen",
+    "aliases": ["ibuprofen", "advil", "motrin"],
+    "max_demo_daily_mg": 3200,
+    "allergy_group": "nsaids",
+    "diseases_to_flag": ["active bleeding", "peptic ulcer disease"],
+    "interacts_with": ["warfarin", "aspirin"]
+  },
+  "amoxicillin": {
+    "generic_name": "Amoxicillin",
+    "aliases": ["amoxicillin", "amoxil"],
+    "max_demo_daily_mg": 3000,
+    "allergy_group": "penicillin",
+    "diseases_to_flag": [],
+    "interacts_with": []
+  },
+  "metformin": {
+    "generic_name": "Metformin",
+    "aliases": ["metformin", "glucophage"],
+    "max_demo_daily_mg": 2550,
+    "allergy_group": "biguanides",
+    "diseases_to_flag": [],
+    "interacts_with": []
+  }
+}
